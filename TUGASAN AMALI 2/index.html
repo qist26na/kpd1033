@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Florist.Co</title>
+    </head>
+    <style>
+        body {
+            background-color: rgb(255, 219, 225);
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            padding: 20px;
+            background-color: rgb(255, 246, 235);
+        }
+        .header img{
+            width: 900px;
+            margin: 0 auto;
+            padding-left: 330px;
+        }
+        .content {
+            padding: 10px;
+        }
+        .form {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            margin: auto;
+            text-align: center;
+        }
+        .form input {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 80%;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .form input[type="submit"]{
+            background-color: #ff8cb1;
+            color: black;
+            border: none;
+            cursor: pointer;
+            width: 30%;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        .form input[type="submit"]:hover {
+            background-color: antiquewhite;
+            font-weight: bold;
+        }
+        .form h2 {
+            color: #c71a51;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 5px;
+            background-color: rgb(255, 246, 235);
+            width: 100%;
+            bottom: 0;
+        }
+        .footer p{
+            font-size: 20px;
+            font-weight: bold;
+            color: #c71a51;
+        }
+    </style>
+        <div class="header">
+            <img src="florist.co.png">
+        </div>
+        <div class="content">
+            <div class="form">
+                <h2>Borang Tempahan</h2>
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <input type="submit" value="Hantar">
+            </div>
+        </div>
+        <div class="footer">
+            <p>Kedai Bunga &copy; 2025 Florist Co.</p>
+        </div>
+</html>
